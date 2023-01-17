@@ -547,6 +547,10 @@ a.homer {
 }
 
 @media (max-width: 320px) {
+    .header_nav{
+        overflow: hidden;
+        
+    }
 }
 
 
@@ -1632,7 +1636,20 @@ th {
 
 }
 
+@media screen and (max-width: 320px){
 
+td.text-left {
+  text-align: left;
+  padding: 0px;
+  font-size: 10px;
+
+}
+th {
+ font-size: 10px;
+ padding: 14px
+
+
+}
 
 
 
