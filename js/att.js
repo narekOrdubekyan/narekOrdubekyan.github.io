@@ -1,6 +1,16 @@
 
 
 
+//line1
+   let workerLine1 = document.querySelector(".input_worker_line1").value;
+
+    document.querySelector(".result_shoes_worker_line1").innerHTML = Number(workerLine1) + " " + "զույգ տղ. համար";
+    document.querySelector(".result_costume_worker_line1").innerHTML = Number(workerLine1) + " " + "հատ տղ. համար";
+    document.querySelector(".result_jacket_worker_line1").innerHTML = Math.floor(workerLine1/2) + " " + "հատ տղ. համար";
+    document.querySelector(".result_T-shirt_worker_line1").innerHTML = Number(workerLine1*2) + " " + "հատ";
+    document.querySelector(".result_overalls_worker_line1").innerHTML = Number(workerLine1) + " " + "հատ";
+    document.querySelector(".result_Gloves_line1").innerHTML= Number(workerLine1*12);
+
 
 
 
