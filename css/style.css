@@ -1597,6 +1597,7 @@ th {
 
 }
 
+
 @media screen and (max-width: 320px){
 
 td.text-left {
@@ -1730,7 +1731,7 @@ width: 100%;
 }
 
 .header{
-  background-size: 160%;
+  background-size: 390%;
   
 }
 
