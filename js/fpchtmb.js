@@ -77,7 +77,7 @@ let engineerLine2 = document.querySelector(".input_engineer_line2").value;
     document.querySelector(".result_costume_director_line3").innerHTML = Math.floor(directorLine3/2) + " " + "հատ";
     document.querySelector(".result_jacket_director_line3").innerHTML = Math.floor(directorLine3/3) + " " + "հատ";
     document.querySelector(".result_Gloves_line3").innerHTML= Number(directorLine3*12) + " " + "զույգ";
-    document.querySelector(".result_shoes_director_line3").innerHTML = Math.floor(directorLine3/3) + " " + "հատ";
+    document.querySelector(".result_shoes_director_line3").innerHTML = Math.floor(directorLine3/3) + " " + "զույգ";
 
 
 //line4
@@ -94,7 +94,7 @@ document.querySelector(".general_result_costume_worker").innerHTML= Number(worke
 
 //result shoes
 document.querySelector(".general_result_shoes_worker").innerHTML= Number(workerLine1) + " " + "զույգ տղ.բանվ․";
-document.querySelector(".general_result_shoes_engineer").innerHTML= Math.floor( (Number(engineerLine2) + Number(woman_engineerLine2) + Number(directorLine3) ) /3) +" " + " հատ ճարտ. համար ";
+document.querySelector(".general_result_shoes_engineer").innerHTML= Math.floor( (Number(engineerLine2) + Number(woman_engineerLine2) + Number(directorLine3) ) /3) +" " + " զույգ ճարտ. համար ";
 
 //result jacket
 document.querySelector(".general_result_jacket_worker").innerHTML= Math.floor(workerLine1/2) + " " + " հատ բանվ.";
