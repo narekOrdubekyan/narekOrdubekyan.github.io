@@ -606,6 +606,21 @@ a.homer {
     font-size: 16px;
 }
 
+.hidden1{
+
+        
+    background: linear-gradient(to left, #AF6122,#EAD820, #EAD820 );
+    padding: 15px 5px;
+    border-radius: 10px;
+    background-size: 200%;
+    transition: .5s;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.pt_button_wraper{
+    margin-top: 50px;
+}
+
 
 button:hover{
     background-position: right;
